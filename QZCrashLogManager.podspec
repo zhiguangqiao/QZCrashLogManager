@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "QZCrashLogManager"
   s.version          = "0.1.0"
-  s.summary          = "QZCrashLogManagerh 这是summary"
+  s.summary          = "QZCrashLogManager 帮你捕捉异常信息，将调用栈信息从stack address转换成 symbol address后写到本地存储，下次启动时可获取到异常信息，自己可以通过接口将crash log 上传到 自己的服务器方便使用"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
