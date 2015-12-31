@@ -7,11 +7,14 @@
 //
 
 #import "QZAppDelegate.h"
-
+#import "QZCrashLogManager.h"
 @implementation QZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [QZCrashLogManager installExceptionHandler];
+    
+    NSLog(@"CrashLog %@",[QZCrashLogManager getCrashLog]);
     // Override point for customization after application launch.
     return YES;
 }

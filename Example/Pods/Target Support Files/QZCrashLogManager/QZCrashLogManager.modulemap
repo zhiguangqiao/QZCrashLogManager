@@ -1,0 +1,6 @@
+framework module QZCrashLogManager {
+  umbrella header "QZCrashLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
