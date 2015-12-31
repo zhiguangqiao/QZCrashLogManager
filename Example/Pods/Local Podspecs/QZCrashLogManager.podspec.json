@@ -1,15 +1,15 @@
 {
   "name": "QZCrashLogManager",
   "version": "0.1.0",
-  "summary": "A short description of QZCrashLogManager.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/QZCrashLogManager",
+  "summary": "QZCrashLogManager 帮你捕捉异常信息，将调用栈信息从stack address转换成 symbol address后写到本地存储，下次启动时可获取到异常信息，自己可以通过接口将crash log 上传到 自己的服务器方便使用",
+  "description": "这是一个描述 descripton QZCrashLogManagerh QZCrashLogManagerh QZCrashLogManagerh",
+  "homepage": "https://github.com/zhiguangqiao/QZCrashLogManager",
   "license": "MIT",
   "authors": {
     "qiaozhiguang": "qiaozhiguang@xingshulin.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/QZCrashLogManager.git",
+    "git": "https://github.com/zhiguangqiao/QZCrashLogManager.git",
     "tag": "0.1.0"
   },
   "platforms": {

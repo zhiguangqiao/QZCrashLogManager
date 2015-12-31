@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '99D858BDE54923289E4B9CC6'
+               BlueprintIdentifier = 'AEE74523C276277467161BBB'
                BlueprintName = 'QZCrashLogManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'QZCrashLogManager.framework'>

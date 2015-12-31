@@ -7,7 +7,7 @@
 //
 
 #import "QZViewController.h"
-
+#import "QZCrashLogManager.h"
 @interface QZViewController ()
 
 @end
@@ -21,6 +21,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)crash:(id)sender {
+    [[NSArray array]objectAtIndex:0];
+}
+
+- (IBAction)showLog:(id)sender {
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Log" message:[[QZCrashLogManager getCrashLog] description] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alert show];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
